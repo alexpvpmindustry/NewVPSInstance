@@ -16,7 +16,7 @@ sudo ufw allow 22
 ```
 
 
-### install conda from [here](https://docs.conda.io/projects/miniconda/en/latest/index.html)
+### install conda ( instructions from [here](https://docs.conda.io/projects/miniconda/en/latest/index.html) )
 
 ``` bash
 mkdir -p ~/miniconda3
@@ -24,3 +24,8 @@ wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/
 bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3
 rm -rf ~/miniconda3/miniconda.sh
 ```
+
+### install java (todo)
+
+- unzip tar.gz,
+- add java to javahome
