@@ -17,7 +17,7 @@ sudo ufw allow 22
 mkdir Documents
 
 sudo apt-get install git
-
+sudo apt-get install htop
 ```
 
 
