@@ -4,7 +4,7 @@ contains tools and files to help u to install a stuff into a new VPS instance
 
 # commands
 
-### fresh ubuntu install
+### fresh ubuntu install (some parts requires user input)
 
 ```bash
 sudo apt update
@@ -13,6 +13,11 @@ sudo apt install ufw
 
 sudo ufw enable
 sudo ufw allow 22
+
+mkdir Documents
+
+sudo apt-get install git
+
 ```
 
 
