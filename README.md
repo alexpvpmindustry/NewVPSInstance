@@ -18,7 +18,7 @@ mkdir Documents
 
 sudo apt-get install git
 sudo apt-get install htop
-
+echo "done"
 ```
 
 
@@ -31,7 +31,7 @@ bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3
 rm -rf ~/miniconda3/miniconda.sh
 
 ~/miniconda3/bin/conda init bash
-
+echo "done"
 ```
 
 ### install java (todo)
@@ -45,7 +45,7 @@ cd ~/
 echo 'export JAVA_HOME="/root/downloads/jdk-16.0.2/"' >> .bashrc
 echo 'export PATH=$PATH:$JAVA_HOME/bin' >> .bashrc
 source ~/.bashrc
-
+echo "done"
 ```
 
 - unzip tar.gz,
