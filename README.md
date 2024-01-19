@@ -42,7 +42,7 @@ cd ~/downloads
 wget https://github.com/alexpvpmindustry/NewVPSInstance/raw/main/large_files/jdk-16.0.2_linux-x64_bin.tar.gz
 tar -xvzf jdk-16.0.2_linux-x64_bin.tar.gz
 cd ~/
-echo 'export JAVA_HOME="/root/downloads/jdk-16.0.2/"' >> .bashrc
+echo 'export JAVA_HOME="/root/downloads/jdk-16.0.2"' >> .bashrc
 echo 'export PATH=$PATH:$JAVA_HOME/bin' >> .bashrc
 source ~/.bashrc
 echo "done"
