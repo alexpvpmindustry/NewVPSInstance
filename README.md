@@ -34,5 +34,13 @@ rm -rf ~/miniconda3/miniconda.sh
 
 ### install java (todo)
 
+```bash
+mkdir ~/downloads
+cd ~/downloads
+wget https://github.com/alexpvpmindustry/NewVPSInstance/raw/main/large_files/jdk-16.0.2_linux-x64_bin.tar.gz
+tar -xvzf jdk-16.0.2_linux-x64_bin.tar.gz
+
+```
+
 - unzip tar.gz,
 - add java to javahome
