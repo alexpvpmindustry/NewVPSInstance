@@ -18,6 +18,7 @@ mkdir Documents
 
 sudo apt-get install git
 sudo apt-get install htop
+sudo apt-get install screen
 echo "done"
 ```
 
