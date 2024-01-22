@@ -13,12 +13,14 @@ sudo apt install ufw
 
 sudo ufw enable
 sudo ufw allow 22
+sudo ufw allow 873
 
 mkdir Documents
 
 sudo apt-get install git
 sudo apt-get install htop
 sudo apt-get install screen
+sudo apt-get install rsync
 echo "done"
 ```
 
