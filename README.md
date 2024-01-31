@@ -33,6 +33,10 @@ cd /root/Documents/surv_eu/
 ./screen_server_start.sh
 ```
 
+chmod +x start_all.sh
+
+add this to `crontab -e`
+`@reboot /root/Documents/start_all.sh`
 
 ### install conda ( instructions from [here](https://docs.conda.io/projects/miniconda/en/latest/index.html) )
 
