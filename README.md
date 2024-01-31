@@ -24,6 +24,15 @@ sudo apt-get install rsync
 echo "done"
 ```
 
+### install crontab to start servers on startup/reboot
+
+put this file in the Documents folder `start_all.sh`
+``` bash
+#!/bin/bash 
+cd /root/Documents/surv_eu/
+./screen_server_start.sh
+```
+
 
 ### install conda ( instructions from [here](https://docs.conda.io/projects/miniconda/en/latest/index.html) )
 
@@ -44,6 +53,7 @@ mkdir ~/downloads
 cd ~/downloads
 wget https://github.com/alexpvpmindustry/NewVPSInstance/raw/main/large_files/jdk-16.0.2_linux-x64_bin.tar.gz
 tar -xvzf jdk-16.0.2_linux-x64_bin.tar.gz
+ln -s /root/downloads/jdk-16.0.2/bin/java /usr/bin/java
 cd ~/
 echo 'export JAVA_HOME="/root/downloads/jdk-16.0.2"' >> .bashrc
 echo 'export PATH=$PATH:$JAVA_HOME/bin' >> .bashrc
