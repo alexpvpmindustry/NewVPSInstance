@@ -51,7 +51,27 @@ rm -rf ~/miniconda3/miniconda.sh
 echo "done"
 ```
 
-### install java (todo)
+### install java (java 17)
+
+```bash
+mkdir ~/downloads
+cd ~/downloads
+wget https://download.oracle.com/java/17/archive/jdk-17.0.10_linux-x64_bin.tar.gz
+tar -xvzf jdk-17.0.10_linux-x64_bin.tar.gz
+ln -s /root/downloads/jdk-17.0.10/bin/java /usr/bin/java
+cd ~/
+echo 'export JAVA_HOME="/root/downloads/jdk-17.0.10"' >> .bashrc
+echo 'export PATH=$PATH:$JAVA_HOME/bin' >> .bashrc
+source ~/.bashrc
+echo "done"
+```
+
+
+
+
+# archive stuff
+
+### install java (java 16)
 
 ```bash
 mkdir ~/downloads
