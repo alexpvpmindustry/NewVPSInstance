@@ -35,7 +35,7 @@ cd /root/Documents/surv_eu/
 
 `chmod +x start_all.sh`
 
-add this to `crontab -e`
+type `crontab -e` and add the line below. ( todo: make this easier.)
 
 `@reboot /root/Documents/start_all.sh`
 
@@ -66,7 +66,9 @@ source ~/.bashrc
 echo "done"
 ```
 
+# TODO
 
+make a command for adding stuff to `crontab -e`
 
 
 # archive stuff
